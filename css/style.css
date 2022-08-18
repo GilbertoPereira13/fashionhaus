@@ -24,7 +24,7 @@ body{
     align-items: center;
 }
 .nav{
-    top: -100%;
+    top: -100vh;
     display: flex;
     position: absolute;
     height: 100vh;
@@ -1022,4 +1022,14 @@ body{
     .signup-title {
         font-size: 3.8rem;
     }
+
+}
+@media (min-height:480px){
+    .image-container {
+        height: 100vh;
+    }
+    .img-size {
+        width: 270px;
+    }
+
 }
